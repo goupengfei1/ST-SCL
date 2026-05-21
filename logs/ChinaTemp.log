@@ -1,0 +1,158 @@
+2026-05-21 13:54:25,162 - easytorch-training - INFO - Initializing training.
+2026-05-21 13:54:25,162 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2026-05-21 13:54:25,162 - easytorch-training - INFO - Building training data loader.
+2026-05-21 13:54:25,177 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0005
+    weight_decay: 0.0005
+)
+2026-05-21 13:54:25,177 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7f2590a5a8b0>
+2026-05-21 13:54:25,746 - easytorch-training - INFO - Initializing validation.
+2026-05-21 13:54:25,747 - easytorch-training - INFO - Building val data loader.
+2026-05-21 13:54:25,774 - easytorch-training - INFO - Number of parameters: 379165
+2026-05-21 13:54:25,774 - easytorch-training - INFO - Epoch 1 / 15
+2026-05-21 13:54:29,279 - easytorch-training - INFO - Result <train>: [train_time: 3.50 (s), lr: 5.00e-04, train_MAE: 3.823730, train_RMSE: 5.018893, train_MAPE: 0.835521, train_WAPE: 0.246289, train_MSE: 29.999228]
+2026-05-21 13:54:29,279 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:29,642 - easytorch-training - INFO - Result <val>: [val_time: 0.36 (s), val_MAE: 2.821625, val_RMSE: 3.726048, val_MAPE: 0.586986, val_WAPE: 0.213600, val_MSE: 14.186362]
+2026-05-21 13:54:29,648 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:54:29,649 - easytorch-training - INFO - Metric improved from inf to 2.8216
+2026-05-21 13:54:30,196 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 3.139214, Test RMSE: 4.314583, Test MAPE: 0.645673, Test WAPE: 0.196471, Test MSE: 18.615627
+2026-05-21 13:54:30,417 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 3.085470, test_RMSE: 4.236538, test_MAPE: 0.630319, test_WAPE: 0.193375, test_MSE: 17.948256]
+2026-05-21 13:54:30,424 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_01.pt saved
+2026-05-21 13:54:30,424 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:35
+2026-05-21 13:54:30,424 - easytorch-training - INFO - Epoch 2 / 15
+2026-05-21 13:54:33,997 - easytorch-training - INFO - Result <train>: [train_time: 3.57 (s), lr: 5.00e-04, train_MAE: 2.718944, train_RMSE: 3.618374, train_MAPE: 0.588084, train_WAPE: 0.173879, train_MSE: 13.114084]
+2026-05-21 13:54:33,997 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:34,367 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.679195, val_RMSE: 3.571898, val_MAPE: 0.538562, val_WAPE: 0.202745, val_MSE: 13.091785]
+2026-05-21 13:54:34,376 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:54:34,376 - easytorch-training - INFO - Metric improved from 2.8216 to 2.6792
+2026-05-21 13:54:34,926 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.960100, Test RMSE: 4.096894, Test MAPE: 0.565081, Test WAPE: 0.185261, Test MSE: 16.784542
+2026-05-21 13:54:35,149 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 2.954186, test_RMSE: 4.081486, test_MAPE: 0.576439, test_WAPE: 0.185147, test_MSE: 16.658531]
+2026-05-21 13:54:35,157 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_02.pt saved
+2026-05-21 13:54:35,157 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:54:35,157 - easytorch-training - INFO - Epoch 3 / 15
+2026-05-21 13:54:38,750 - easytorch-training - INFO - Result <train>: [train_time: 3.59 (s), lr: 5.00e-04, train_MAE: 2.647678, train_RMSE: 3.536207, train_MAPE: 0.573677, train_WAPE: 0.169567, train_MSE: 12.521229]
+2026-05-21 13:54:38,751 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:39,120 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.691406, val_RMSE: 3.607112, val_MAPE: 0.536592, val_WAPE: 0.202982, val_MSE: 13.292118]
+2026-05-21 13:54:39,120 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 1 / 5
+2026-05-21 13:54:39,672 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.948719, Test RMSE: 4.109013, Test MAPE: 0.561377, Test WAPE: 0.184548, Test MSE: 16.883989
+2026-05-21 13:54:39,890 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 2.961283, test_RMSE: 4.103135, test_MAPE: 0.576005, test_WAPE: 0.185592, test_MSE: 16.835718]
+2026-05-21 13:54:39,896 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_03.pt saved
+2026-05-21 13:54:39,897 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:54:39,897 - easytorch-training - INFO - Epoch 4 / 15
+2026-05-21 13:54:43,531 - easytorch-training - INFO - Result <train>: [train_time: 3.63 (s), lr: 5.00e-04, train_MAE: 2.624065, train_RMSE: 3.510913, train_MAPE: 0.568587, train_WAPE: 0.168088, train_MSE: 12.341584]
+2026-05-21 13:54:43,532 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:43,884 - easytorch-training - INFO - Result <val>: [val_time: 0.35 (s), val_MAE: 2.675853, val_RMSE: 3.605702, val_MAPE: 0.535495, val_WAPE: 0.202207, val_MSE: 13.288914]
+2026-05-21 13:54:43,892 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:54:43,892 - easytorch-training - INFO - Metric improved from 2.6914 to 2.6759
+2026-05-21 13:54:44,446 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.987702, Test RMSE: 4.180345, Test MAPE: 0.590385, Test WAPE: 0.186988, Test MSE: 17.475279
+2026-05-21 13:54:44,672 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.937796, test_RMSE: 4.090077, test_MAPE: 0.574702, test_WAPE: 0.184120, test_MSE: 16.728731]
+2026-05-21 13:54:44,678 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_04.pt saved
+2026-05-21 13:54:44,678 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:54:44,678 - easytorch-training - INFO - Epoch 5 / 15
+2026-05-21 13:54:48,284 - easytorch-training - INFO - Result <train>: [train_time: 3.61 (s), lr: 5.00e-04, train_MAE: 2.607436, train_RMSE: 3.492385, train_MAPE: 0.564299, train_WAPE: 0.167026, train_MSE: 12.212411]
+2026-05-21 13:54:48,285 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:48,649 - easytorch-training - INFO - Result <val>: [val_time: 0.36 (s), val_MAE: 2.667111, val_RMSE: 3.604770, val_MAPE: 0.524046, val_WAPE: 0.201133, val_MSE: 13.278253]
+2026-05-21 13:54:48,657 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:54:48,657 - easytorch-training - INFO - Metric improved from 2.6759 to 2.6671
+2026-05-21 13:54:49,211 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.927058, Test RMSE: 4.108041, Test MAPE: 0.554162, Test WAPE: 0.183193, Test MSE: 16.875998
+2026-05-21 13:54:49,438 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.916828, test_RMSE: 4.064560, test_MAPE: 0.554547, test_WAPE: 0.182806, test_MSE: 16.520649]
+2026-05-21 13:54:49,444 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_05.pt saved
+2026-05-21 13:54:49,444 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:54:49,444 - easytorch-training - INFO - Epoch 6 / 15
+2026-05-21 13:54:53,056 - easytorch-training - INFO - Result <train>: [train_time: 3.61 (s), lr: 5.00e-04, train_MAE: 2.574973, train_RMSE: 3.456973, train_MAPE: 0.556457, train_WAPE: 0.164543, train_MSE: 11.964366]
+2026-05-21 13:54:53,057 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:53,406 - easytorch-training - INFO - Result <val>: [val_time: 0.35 (s), val_MAE: 2.658751, val_RMSE: 3.603864, val_MAPE: 0.524275, val_WAPE: 0.200673, val_MSE: 13.264677]
+2026-05-21 13:54:53,413 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:54:53,414 - easytorch-training - INFO - Metric improved from 2.6671 to 2.6588
+2026-05-21 13:54:53,966 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.913880, Test RMSE: 4.105934, Test MAPE: 0.556666, Test WAPE: 0.182368, Test MSE: 16.858696
+2026-05-21 13:54:54,182 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 2.908390, test_RMSE: 4.066642, test_MAPE: 0.559816, test_WAPE: 0.182277, test_MSE: 16.537580]
+2026-05-21 13:54:54,189 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_06.pt saved
+2026-05-21 13:54:54,189 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:54:54,189 - easytorch-training - INFO - Epoch 7 / 15
+2026-05-21 13:54:57,808 - easytorch-training - INFO - Result <train>: [train_time: 3.62 (s), lr: 5.00e-04, train_MAE: 2.567698, train_RMSE: 3.447251, train_MAPE: 0.556676, train_WAPE: 0.164473, train_MSE: 11.896053]
+2026-05-21 13:54:57,808 - easytorch-training - INFO - Start validation.
+2026-05-21 13:54:58,182 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.662616, val_RMSE: 3.593411, val_MAPE: 0.526839, val_WAPE: 0.201874, val_MSE: 13.238284]
+2026-05-21 13:54:58,183 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 1 / 5
+2026-05-21 13:54:58,735 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.882515, Test RMSE: 4.067643, Test MAPE: 0.542638, Test WAPE: 0.180405, Test MSE: 16.545715
+2026-05-21 13:54:58,956 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 2.875533, test_RMSE: 4.029742, test_MAPE: 0.544748, test_WAPE: 0.180217, test_MSE: 16.238823]
+2026-05-21 13:54:58,962 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_07.pt saved
+2026-05-21 13:54:58,963 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:54:58,963 - easytorch-training - INFO - Epoch 8 / 15
+2026-05-21 13:55:02,575 - easytorch-training - INFO - Result <train>: [train_time: 3.61 (s), lr: 5.00e-04, train_MAE: 2.556273, train_RMSE: 3.428278, train_MAPE: 0.555320, train_WAPE: 0.164182, train_MSE: 11.774251]
+2026-05-21 13:55:02,576 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:02,930 - easytorch-training - INFO - Result <val>: [val_time: 0.35 (s), val_MAE: 2.647088, val_RMSE: 3.589621, val_MAPE: 0.529362, val_WAPE: 0.200181, val_MSE: 13.160785]
+2026-05-21 13:55:02,938 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:55:02,938 - easytorch-training - INFO - Metric improved from 2.6626 to 2.6471
+2026-05-21 13:55:03,491 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.901292, Test RMSE: 4.071300, Test MAPE: 0.548622, Test WAPE: 0.181580, Test MSE: 16.575483
+2026-05-21 13:55:03,720 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.918632, test_RMSE: 4.071588, test_MAPE: 0.570606, test_WAPE: 0.182919, test_MSE: 16.577826]
+2026-05-21 13:55:03,726 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_08.pt saved
+2026-05-21 13:55:03,726 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:55:03,726 - easytorch-training - INFO - Epoch 9 / 15
+2026-05-21 13:55:07,354 - easytorch-training - INFO - Result <train>: [train_time: 3.63 (s), lr: 5.00e-04, train_MAE: 2.543161, train_RMSE: 3.416813, train_MAPE: 0.553035, train_WAPE: 0.162992, train_MSE: 11.693553]
+2026-05-21 13:55:07,354 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:07,724 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.657483, val_RMSE: 3.585331, val_MAPE: 0.521750, val_WAPE: 0.201256, val_MSE: 13.142214]
+2026-05-21 13:55:07,725 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 1 / 5
+2026-05-21 13:55:08,281 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.933288, Test RMSE: 4.112216, Test MAPE: 0.550533, Test WAPE: 0.183583, Test MSE: 16.910322
+2026-05-21 13:55:08,489 - easytorch-training - INFO - Result <test>: [test_time: 0.76 (s), test_MAE: 2.929983, test_RMSE: 4.078250, test_MAPE: 0.561273, test_WAPE: 0.183630, test_MSE: 16.632126]
+2026-05-21 13:55:08,496 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_09.pt saved
+2026-05-21 13:55:08,496 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:36
+2026-05-21 13:55:08,496 - easytorch-training - INFO - Epoch 10 / 15
+2026-05-21 13:55:12,123 - easytorch-training - INFO - Result <train>: [train_time: 3.63 (s), lr: 5.00e-04, train_MAE: 2.536347, train_RMSE: 3.409661, train_MAPE: 0.549333, train_WAPE: 0.162313, train_MSE: 11.642665]
+2026-05-21 13:55:12,124 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:12,488 - easytorch-training - INFO - Result <val>: [val_time: 0.36 (s), val_MAE: 2.640750, val_RMSE: 3.570396, val_MAPE: 0.513622, val_WAPE: 0.199195, val_MSE: 13.020853]
+2026-05-21 13:55:12,494 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:55:12,494 - easytorch-training - INFO - Metric improved from 2.6575 to 2.6408
+2026-05-21 13:55:13,046 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.919675, Test RMSE: 4.085850, Test MAPE: 0.539531, Test WAPE: 0.182731, Test MSE: 16.694172
+2026-05-21 13:55:13,267 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 2.909858, test_RMSE: 4.044482, test_MAPE: 0.547143, test_WAPE: 0.182369, test_MSE: 16.357836]
+2026-05-21 13:55:13,273 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_10.pt saved
+2026-05-21 13:55:13,276 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:37
+2026-05-21 13:55:13,276 - easytorch-training - INFO - Epoch 11 / 15
+2026-05-21 13:55:16,913 - easytorch-training - INFO - Result <train>: [train_time: 3.64 (s), lr: 5.00e-04, train_MAE: 2.596332, train_RMSE: 3.483712, train_MAPE: 0.566745, train_WAPE: 0.165985, train_MSE: 12.166974]
+2026-05-21 13:55:16,914 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:17,288 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.692808, val_RMSE: 3.593323, val_MAPE: 0.531777, val_WAPE: 0.204324, val_MSE: 13.254298]
+2026-05-21 13:55:17,289 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 1 / 5
+2026-05-21 13:55:17,842 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 3.066713, Test RMSE: 4.200190, Test MAPE: 0.554199, Test WAPE: 0.191933, Test MSE: 17.641592
+2026-05-21 13:55:18,069 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.983525, test_RMSE: 4.117345, test_MAPE: 0.570722, test_WAPE: 0.186986, test_MSE: 16.952528]
+2026-05-21 13:55:18,075 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_11.pt saved
+2026-05-21 13:55:18,076 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:37
+2026-05-21 13:55:18,076 - easytorch-training - INFO - Epoch 12 / 15
+2026-05-21 13:55:21,692 - easytorch-training - INFO - Result <train>: [train_time: 3.62 (s), lr: 5.00e-04, train_MAE: 2.540839, train_RMSE: 3.412120, train_MAPE: 0.542424, train_WAPE: 0.162855, train_MSE: 11.657099]
+2026-05-21 13:55:21,692 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:22,070 - easytorch-training - INFO - Result <val>: [val_time: 0.38 (s), val_MAE: 2.623519, val_RMSE: 3.558569, val_MAPE: 0.504041, val_WAPE: 0.197813, val_MSE: 12.907386]
+2026-05-21 13:55:22,078 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_best_val_MAE.pt saved
+2026-05-21 13:55:22,078 - easytorch-training - INFO - Metric improved from 2.6928 to 2.6235
+2026-05-21 13:55:22,633 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.900607, Test RMSE: 4.059487, Test MAPE: 0.528057, Test WAPE: 0.181537, Test MSE: 16.479439
+2026-05-21 13:55:22,856 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.879090, test_RMSE: 4.012115, test_MAPE: 0.533446, test_WAPE: 0.180440, test_MSE: 16.097065]
+2026-05-21 13:55:22,862 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_12.pt saved
+2026-05-21 13:55:22,863 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:37
+2026-05-21 13:55:22,863 - easytorch-training - INFO - Epoch 13 / 15
+2026-05-21 13:55:26,479 - easytorch-training - INFO - Result <train>: [train_time: 3.62 (s), lr: 5.00e-04, train_MAE: 2.520056, train_RMSE: 3.380347, train_MAPE: 0.538771, train_WAPE: 0.161160, train_MSE: 11.439552]
+2026-05-21 13:55:26,480 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:26,853 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.623916, val_RMSE: 3.559126, val_MAPE: 0.518516, val_WAPE: 0.198066, val_MSE: 12.909731]
+2026-05-21 13:55:26,853 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 1 / 5
+2026-05-21 13:55:27,410 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.899609, Test RMSE: 4.063872, Test MAPE: 0.542646, Test WAPE: 0.181475, Test MSE: 16.515059
+2026-05-21 13:55:27,636 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.872125, test_RMSE: 4.012872, test_MAPE: 0.546423, test_WAPE: 0.180004, test_MSE: 16.103142]
+2026-05-21 13:55:27,642 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_13.pt saved
+2026-05-21 13:55:27,642 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:37
+2026-05-21 13:55:27,642 - easytorch-training - INFO - Epoch 14 / 15
+2026-05-21 13:55:31,270 - easytorch-training - INFO - Result <train>: [train_time: 3.63 (s), lr: 5.00e-04, train_MAE: 2.530732, train_RMSE: 3.390095, train_MAPE: 0.542280, train_WAPE: 0.161728, train_MSE: 11.507026]
+2026-05-21 13:55:31,271 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:31,640 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.635107, val_RMSE: 3.556853, val_MAPE: 0.522479, val_WAPE: 0.199204, val_MSE: 12.901199]
+2026-05-21 13:55:31,641 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 2 / 5
+2026-05-21 13:55:32,196 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.924310, Test RMSE: 4.076828, Test MAPE: 0.547887, Test WAPE: 0.183021, Test MSE: 16.620527
+2026-05-21 13:55:32,414 - easytorch-training - INFO - Result <test>: [test_time: 0.77 (s), test_MAE: 2.889347, test_RMSE: 4.020054, test_MAPE: 0.550037, test_WAPE: 0.181083, test_MSE: 16.160835]
+2026-05-21 13:55:32,421 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_14.pt saved
+2026-05-21 13:55:32,421 - easytorch-training - INFO - The estimated training finish time is 2026-05-21 13:55:37
+2026-05-21 13:55:32,421 - easytorch-training - INFO - Epoch 15 / 15
+2026-05-21 13:55:36,046 - easytorch-training - INFO - Result <train>: [train_time: 3.63 (s), lr: 5.00e-04, train_MAE: 2.553084, train_RMSE: 3.413241, train_MAPE: 0.547493, train_WAPE: 0.163503, train_MSE: 11.661663]
+2026-05-21 13:55:36,046 - easytorch-training - INFO - Start validation.
+2026-05-21 13:55:36,418 - easytorch-training - INFO - Result <val>: [val_time: 0.37 (s), val_MAE: 2.648581, val_RMSE: 3.562222, val_MAPE: 0.526907, val_WAPE: 0.200386, val_MSE: 12.942925]
+2026-05-21 13:55:36,418 - easytorch-training - INFO - No improvement from previous epoch. Early stopping counter: 3 / 5
+2026-05-21 13:55:36,973 - easytorch-training - INFO - Evaluate best model on test data for horizon 24, Test MAE: 2.948324, Test RMSE: 4.095995, Test MAPE: 0.554997, Test WAPE: 0.184524, Test MSE: 16.777180
+2026-05-21 13:55:37,198 - easytorch-training - INFO - Result <test>: [test_time: 0.78 (s), test_MAE: 2.906552, test_RMSE: 4.032078, test_MAPE: 0.554252, test_WAPE: 0.182162, test_MSE: 16.257654]
+2026-05-21 13:55:37,204 - easytorch-training - INFO - Checkpoint checkpoints/STSCL_15/985a5404b1c3ebc5ac129ce7012a250b/STSCL_15.pt saved
+2026-05-21 13:55:37,206 - easytorch-training - INFO - The training finished at 2026-05-21 13:55:37
